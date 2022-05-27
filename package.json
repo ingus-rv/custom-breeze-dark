@@ -1,0 +1,22 @@
+{
+    "name": "custom-breeze-dark",
+    "displayName": "Custom Breeze Dark",
+    "description": "KDE Breeze Dark theme mixed with vscode Dark+ theme",
+    "version": "0.0.1",
+    "publisher": "ingus-rv",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Custom Breeze Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/custom-breeze-dark.json"
+            }
+        ]
+    }
+}
